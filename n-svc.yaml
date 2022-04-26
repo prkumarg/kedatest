@@ -6,7 +6,7 @@ metadata:
   labels:
     app.kubernetes.io/name: rabbitmqcluster
     app.kubernetes.io/component: rabbitmq
-     app.kubernetes.io/part-of: rabbitmq
+    app.kubernetes.io/part-of: rabbitmq
   annotations:
     service.beta.kubernetes.io/azure-load-balancer-internal: "true"
 spec:
